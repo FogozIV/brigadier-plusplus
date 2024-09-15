@@ -5,7 +5,10 @@ set(CMAKE_CXX_STANDARD 17)
 
 file(GLOB_RECURSE SOURCES "src/*.cpp")
 
-file(GLOB_RECURSE HEADERS "include/*.h")
+file(GLOB_RECURSE HEADERS "include/single-header/*.h")
+file(GLOB_RECURSE HEADERS "include/single-header/*.hpp")
+file(GLOB_RECURSE HEADERS "include/header-only/brigadier/*.hpp")
+file(GLOB_RECURSE HEADERS "include/header-only/brigadier/*.h")
 
 add_library(${PROJECT_NAME} STATIC ${SOURCES} ${HEADERS})
 
