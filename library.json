@@ -1,0 +1,9 @@
+{
+  "name": "Brigadier",
+  "version": "1.0.0",
+  "description": "Brigadier library for Arduino",
+  "authors": [],
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
